@@ -14,3 +14,5 @@ def signupfunc(request):
       user = User.objects.create_user(username2, '', password2)
       return render(request, 'signup.html', {'some':100})
   return render(request, 'signup.html', {'some':100})
+
+def loginfunc(request)
