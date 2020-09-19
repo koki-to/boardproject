@@ -29,5 +29,5 @@ def loginfunc(request):
   return render(request, 'login.html')
 
 def listfunc(request):
-  
+  return render(request, 'list.html')
 
